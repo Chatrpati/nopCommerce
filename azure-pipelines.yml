@@ -8,7 +8,7 @@ trigger:
 
 jobs:
 - job: builjob
-  displayname: build and package NopCommerce
+  displayName: buildandpackage
   pool: 
     vmimage: ubuntu-22.04
   steps: 
